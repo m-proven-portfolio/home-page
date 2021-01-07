@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8080; // dev check 1 o 3
 const routes = require('./routes/api');
 
 // DATABASES..."The Model" climb-the-hill-to-stay-alive      link connection for mongodb atlas
-// const MONGODB_URI = 'mongodb+srv://m-proven:climb-the-hill-to-stay-alive@cluster0.23le9.mongodb.net/<dbname>?retryWrites=true&w=majority';
+const MONGODB_URI = 'mongodb+srv://m-proven:climb-the-hill-to-stay-alive@cluster0.23le9.mongodb.net/<dbname>?retryWrites=true&w=majority';
 
 // dev check 2 o 3
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/home_cooking', {
