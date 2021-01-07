@@ -1,7 +1,57 @@
 /* using Bootstrap, how much of this will change or be deleted??? */
-.App {
-  text-align: center;
+.app {
+  padding: 10px;
 }
+
+.form-input {
+  margin: 10px;
+}
+
+.form-input input, .form-input textarea {
+  width: 100%;
+  padding: 1.5vh 1.5vw;
+  font-size: 1.5vh;
+  line-height: 2vh;
+  border-radius: 6px;
+  border: 1px solid blue;
+  font-weight: 700;
+
+}
+
+.blog-post_display {
+  border: 1px solid blue;
+  border-radius: 6px;
+  margin: 5px 0px;
+  padding: 10px;
+  outline: none;
+}
+
+form {
+  width: 50%;
+}
+
+a {
+  color: blue;
+  cursor: pointer;
+}
+
+a:hover {  
+  background-color: lightgrey;
+  font-weight: 700;
+}
+
+button {
+  font-weight: 700;
+  background-color: lightgrey;
+  color: blue;
+  padding: 1.5vh 1.5vw;
+  font-size: 1.5vh;
+  line-height: 2vh;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+}
+/* spinning React logo from before
 
 .App-logo {
   height: 40vmin;
@@ -14,20 +64,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -37,3 +73,5 @@
     transform: rotate(360deg);
   }
 }
+
+*/

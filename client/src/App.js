@@ -27,7 +27,7 @@ class App extends React.Component {
         console.log('Data has been received.');        
       })
       .catch(() => {
-        alert('Server error.');
+        console.log('Server error.'); // was alert, but not for production
       });
   };
 
@@ -94,7 +94,8 @@ class App extends React.Component {
     console.log('State: ', this.state)
     //JSX
     return(
-      <div className="App">
+      <div className="app">
+        <header>
         <h2>Welcome to the M.Proven.Portfolio<br />created by: Mike Provenzano</h2>
 
         <p>I built this website to practice and show my works, I initially used this <a href="https://youtube.com/playlist?list=PLurIMwd6GdCj_VlnKVceR66Sxfcb37VU8" target="_blank" rel="noreferrer">video serries</a> to develop it, 
@@ -108,10 +109,10 @@ class App extends React.Component {
 
         <p>Below is the form used to make this project, but this <a href="#" target="_self" >LINK</a> will take you to an index of other projects I have been making,
           be sure to also check out the ESL apps I've made for my students. Thank you for your interest and I look forward to collaborating with you or your company.</p>
-
+        </header>
         <form id="Blog-Posts" action="#" method="POST" target="_self" onSubmit={this.submit}>
           <div className="form-input">
-            <label for="title" id="title-label">Title: </label><br/>
+            <label id="title-label">Title: </label><br/>
             <input type="text" 
             id="title" 
             name="title" 
@@ -121,7 +122,7 @@ class App extends React.Component {
             required/><br/>
           </div>
           <div className="form-input">            
-            <label for="body" id="body-label">What do you have to say?</label><br/>
+            <label id="body-label">What do you have to say?</label><br/>
             <textarea 
             id="body" 
             name="body" 
