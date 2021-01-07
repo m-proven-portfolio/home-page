@@ -98,12 +98,12 @@ class App extends React.Component {
         <header>
         <h2>Welcome to the M.Proven.Portfolio<br />created by: Mike Provenzano</h2>
 
-        <p>I built this website to practice and show my works, I initially used this <a href="https://youtube.com/playlist?list=PLurIMwd6GdCj_VlnKVceR66Sxfcb37VU8" target="_blank" rel="noreferrer">video serries</a> to develop it, 
-          but I will be adding and replacing code form it to further develop the data base and other assets of the site.</p>
+        <p>I built this website to practice and show my works, I initially used this <a href="https://youtube.com/playlist?list=PLurIMwd6GdCj_VlnKVceR66Sxfcb37VU8" target="_blank" rel="noreferrer">video series</a> to develop it, 
+          but I will be adding and replacing code from it to further develop the database and other assets of the site.</p>
 
         <h2>Mike the ESL teacher:</h2>
 
-        <p>If you are here, then you are most likely one of my students. I will be making tools for you to develop your ability in English. One such tool I made is a 15 week course on the 3,000 most commonly used words in English. It can be found in this <a href="./engIn15Wks/index.html" target="_self" >LINK</a>.</p>
+        <p>If you are here, then you are most likely one of my students. I will be making tools for you to develop your ability in English. One such tool I made is a 15-week course on the 3,000 most commonly used words in English. Click this <a href="./engIn15Wks/index.html" target="_self" >LINK</a> to access it.</p>
 
         <h2>Mike the Developer/Hobbyist:</h2>
 
