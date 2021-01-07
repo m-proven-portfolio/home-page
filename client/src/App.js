@@ -97,7 +97,7 @@ class App extends React.Component {
       <div className="App">
         <h2>Welcome to the M.Proven.Portfolio<br />created by: Mike Provenzano</h2>
 
-        <p>I built this website to practice and show my works, I initially used this <a href="https://youtube.com/playlist?list=PLurIMwd6GdCj_VlnKVceR66Sxfcb37VU8" target="_blank" >video serries</a> to develop it, 
+        <p>I built this website to practice and show my works, I initially used this <a href="https://youtube.com/playlist?list=PLurIMwd6GdCj_VlnKVceR66Sxfcb37VU8" target="_blank" rel="noreferrer">video serries</a> to develop it, 
           but I will be adding and replacing code form it to further develop the data base and other assets of the site.</p>
 
         <h2>Mike the ESL teacher:</h2>
