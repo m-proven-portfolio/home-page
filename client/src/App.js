@@ -103,7 +103,7 @@ class App extends React.Component {
 
         <h2>Mike the ESL teacher:</h2>
 
-        <p>If you are here, then you are most likely one of my students, the tools I have made for you can be found in this <a href="#" target="_self" >LINK</a>.</p>
+        <p>If you are here, then you are most likely one of my students. I will be making tools for you to develop your ability in English. One such tool I made is a 15 week course on the 3,000 most commonly used words in English. It can be found in this <a href="./engIn15Wks/index.html" target="_self" >LINK</a>.</p>
 
         <h2>Mike the Developer/Hobbyist:</h2>
 
