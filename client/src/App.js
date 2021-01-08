@@ -94,9 +94,9 @@ class App extends React.Component {
     console.log('State: ', this.state)
     //JSX
     return(
-      <div class="container">
-        <header  class="jumbotron text-center row">
-      <div class="col-sm-12 title">
+      <div className="container">
+        <header  className="jumbotron text-center row">
+      <div className="col-sm-12 title">
         <h1>Welcome to the M.Proven.Portfolio</h1><h2>created by: Mike Provenzano</h2>
       
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I initially used this <a href="https://youtube.com/playlist?list=PLurIMwd6GdCj_VlnKVceR66Sxfcb37VU8" target="_blank" rel="noreferrer">YouTube <i class="fab fa-youtube"></i></a> series to build this website. 
@@ -106,7 +106,7 @@ class App extends React.Component {
         <h2>Mike the ESL teacher:</h2>
       
         <p>If you are here, then you are most likely one of my advanced students. I will be making more tools for you to improve your English. <br /><br />If you are a prospective student, you can schedule time with me here at <a href="https://1on1.today/tutor-info/5fce38f2b5c6a" target="_blank" rel="noreferrer">1on1.today</a></p> 
-        <p class="orange">I made this app to help my students improve their vocabulary. It's a 15-week self-paced course on the 3,000 most commonly used words in English. <br />Click this <a href="./engIn15Wks/index.html" target="_self" >LINK</a> to access it.</p>
+        <p className="orange">I made this app to help my students improve their vocabulary. It's a 15-week self-paced course on the 3,000 most commonly used words in English. <br />Click this <a href="./engIn15Wks/index.html" target="_self" >LINK</a> to access it.</p>
       </div><div class="col-sm-6 code">
         <h2>Mike the Developer/Hobbyist:</h2>
 
@@ -114,7 +114,7 @@ class App extends React.Component {
           The code for this web-portfolio can be found on my <a href="https://github.com/m-proven-portfolio/home-page" rel="noreferrer" target="_blank">GitHub <i class="fab fa-github"></i></a>. Thank you for your interest and I look forward to collaborating with you and your company.</p>
       </div></header>
         <form id="Blog-Posts" action="#" method="POST" target="_self" onSubmit={this.submit}>
-          <div class="form-group">
+          <div className="form-group">
           <div className="form-input">
             <label id="title-label">Title: </label><br/>
             <input type="text" class="form-control" 
@@ -139,7 +139,7 @@ class App extends React.Component {
             </textarea>
           </div>  
 
-          <button class="form-control btn-info" id="submit" type="submit">Post your thoughts.</button>
+          <button className="form-control btn-info" id="submit" type="submit">Post your thoughts.</button>
 
         </div></form>
 
