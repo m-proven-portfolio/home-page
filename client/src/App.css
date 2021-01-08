@@ -1,18 +1,39 @@
+a {
+  font-weight: 500;
+}
+
 .title {
   background-color: hsl(60, 100%, 90%);
   color: hsl(240, 100%, 10%);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.title p {
+  font-weight: 450;
+  text-align: left;
+  margin-top: 3vh;
 }
 
 .esl {
-  background-color: darkmagenta;
-  color: yellow;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  line-height: 3em;
+  background-color: hsl(90, 100%, 90%);
+  color: hsl(270, 100%, 10%);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.orange {
+  background-color: hsl(30, 100%, 90%);
+  color: hsl(210, 100%, 10%);
+
 }
 
 .code {
-  background-color: black;
-  color: green;
-  font-family: 'Courier New', Courier, monospace;
+  background-color: hsl(270, 100%, 90%);
+  color: hsl(120, 100%, 10%);
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+  
+  
 }
