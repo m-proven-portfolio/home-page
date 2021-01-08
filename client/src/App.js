@@ -105,7 +105,7 @@ class App extends React.Component {
       </div><div class="col-sm-6 esl">
         <h2>Mike the ESL teacher:</h2>
       
-        <p>If you are here, then you are most likely one of my advanced students. I will be making more tools for you to improve your English. <br /><br />If you are a prospective student, you can schedule time with me here at <a href="https://1on1.today/tutor-info/5fce38f2b5c6a" target="_blank" rel="noreferrer">1on1today</a></p> 
+        <p>If you are here, then you are most likely one of my advanced students. I will be making more tools for you to improve your English. <br /><br />If you are a prospective student, you can schedule time with me here at <a href="https://1on1.today/tutor-info/5fce38f2b5c6a" target="_blank" rel="noreferrer">1on1.today</a></p> 
         <p class="orange">I made this app to help my students improve their vocabulary. It's a 15-week self-paced course on the 3,000 most commonly used words in English. <br />Click this <a href="./engIn15Wks/index.html" target="_self" >LINK</a> to access it.</p>
       </div><div class="col-sm-6 code">
         <h2>Mike the Developer/Hobbyist:</h2>
