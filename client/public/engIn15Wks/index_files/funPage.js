@@ -3,7 +3,7 @@ Functions for calling individual Lessons
 
 */
 
-let I = '<p>To use this as a study aide, ignore the words you know, and focus on the words you don\'t know. Click on the <img src="dictionary.png" alt="Dictionary.com" style="width:21px;height:21px;border:0;"> link to get the English pronounciations, definitions, and examples of the words used in a sentence. Any words in the definitions you don\'t know can be clicked on and you can build your vocabulary even further. Use the <img src="papago.ico" alt="Papago Translation" style="width:21px;height:21px;border:0;"> link to go to page for a translation (preset English to Korean).</p>';
+let I = '<p>To use this as a study aid, ignore the words you know, and focus on the words you don\'t know. Click on the <img src="dictionary.png" alt="Dictionary.com" style="width:21px;height:21px;border:0;"> link to get the English pronunciations, definitions, and examples of the words used in a sentence. Any words in the definitions you don\'t know can be clicked on and you can build your vocabulary even further. Use the <img src="papago.ico" alt="Papago Translation" style="width:21px;height:21px;border:0;"> link to go to the page for a translation (preset English to Korean).</p>';
 
 function cList0001() {  document.getElementById("page").innerHTML = I + '<button onclick="home()">Return to the Weeks</button><br/><br/>'+List001+'<br/><br/><button onclick="cList0002()">Next Lesson</button>';}
 function cList0002() {  document.getElementById("page").innerHTML = I + '<button onclick="home()">Return to the Weeks</button><br/><br/>'+List002+'<br/><br/><button onclick="cList0001()">Previous Lesson</button><button onclick="cList0003()">Next Lesson</button>';}
