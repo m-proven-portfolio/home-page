@@ -719,7 +719,7 @@ function rndm() {
 var num = Math.floor(Math.random() * 600);
 var page = Full_List[num];
 
-		document.getElementById("page").innerHTML = '<button onclick="home()">Return to the Weeks</button><br/><br/>'+page+'<br/><br/>'+
+		document.getElementById("page").innerHTML = '<p>To use this as a study aide, ignore the words you know, and focus on the words you don\'t know. Click on the <img src="dictionary.png" alt="Dictionary.com" style="width:21px;height:21px;border:0;"> link to get the English pronounciations, definitions, and examples of the words used in a sentence. Any words in the definitions you don\'t know can be clicked on and you can build your vocabulary even further. Use the <img src="papago.ico" alt="Papago Translation" style="width:21px;height:21px;border:0;"> link to go to page for a translation (preset English to Korean).</p><button onclick="home()">Return to the Weeks</button><br/><br/>'+page+'<br/><br/>'+
 		'<button onclick="rndm()">Get a random list...</button>';
 }
 
