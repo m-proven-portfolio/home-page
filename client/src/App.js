@@ -96,18 +96,18 @@ class App extends React.Component {
     return(
       <div className="container">
         <header  className="jumbotron text-center row">
-      <div className="col-sm-12 title">
+      <div className="col-sm-12 outer">
         <h1>Welcome to the M.Proven.Portfolio</h1><h2>created by: Mike Provenzano</h2>
       
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I initially used this <a href="https://youtube.com/playlist?list=PLurIMwd6GdCj_VlnKVceR66Sxfcb37VU8" target="_blank" rel="noreferrer">YouTube <i class="fab fa-youtube"></i></a> series to build this website. 
           It is my intent that by building this into a portfolio website 
           I will improve as a programmer and web developer while also offering tools to help my students improve their English as a second language.</p>
-      </div><div class="col-sm-6 esl">
+      </div><div class="col-sm-6 negative">
         <h2>Mike the ESL teacher:</h2>
       
-        <p>If you are here, then you are most likely one of my advanced students. I will be making more tools for you to improve your English. <br /><br />If you are a prospective student, you can schedule time with me here at <a href="https://1on1.today/tutor-info/5fce38f2b5c6a" target="_blank" rel="noreferrer">1on1.today</a></p> 
-        <p className="orange">I made this app to help my students improve their vocabulary. It's a 15-week self-paced course on the 3,000 most commonly used words in English. <br />Click this <a href="./engIn15Wks/index.html" target="_self" >LINK</a> to access it.</p>
-      </div><div class="col-sm-6 code">
+        <p>If you are here, then you are most likely one of my advanced students. I will be making more tools for you to improve your English.</p>
+        <p className="inner">I made this app to help my students improve their vocabulary. It's a 15-week self-paced course on the 3,000 most commonly used words in English. <br /><br />Click this <a href="./engIn15Wks/index.html" target="_self" >LINK</a> to access it.</p>
+      </div><div class="col-sm-6 outer">
         <h2>Mike the Developer/Hobbyist:</h2>
 
         <p>This <a href="https://www.freecodecamp.org/m-proven" target="_blank" rel="noreferrer">freeCodeCamp.org <i class="fab fa-free-code-camp"></i></a> link will take you to my profile there to show you my progress.
