@@ -26,10 +26,6 @@ a {
   
 }
 
-.negative a { 
-  color: hsl(270, 100%, 95%);
-}
-
 .inner {
   background-color: hsl(60, 100%, 90%);
   color: hsl(240, 100%, 10%);
