@@ -1,11 +1,18 @@
 /********	
 Home Page On Load
+
+
+I'm just to lazy to redo it all, throw the words into an array and create while i loops for everything...
+I did this because at the time the easiest thing was to copy, paste, and use the text editor to select multiple lines and type when needed
+
 *********/
 function home() {
 		document.getElementById("page").innerHTML = '<h2>These are roughly the 3,000 most common words used in English. </h2>'+
 		'<h3><br/>'+
 		'By giving you just 5 words in a short lesson I hope it helps for studying.<br/>'+
-		'You can do a quick lesson on the train or bus, while having a snack, or even on the toilet!</h3>'+
+		'You can do a quick lesson on the train or bus, while having a snack, or even on the toilet!</h3><video width="320" height="240" controls>'+
+		'<source src="siteVideo.mp4" type="video/mp4"/>'+
+		'Your browser does not support the video tag.</video>'+
 		'<!-- Just a List ---------------------------------------------------------------->'+
 		'<br/><br/><button onclick="rndm()">Get a random Lesson?</button><br/><br/>'+
 		

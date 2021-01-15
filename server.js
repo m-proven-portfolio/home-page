@@ -1,14 +1,43 @@
+require('dotenv').config();
 // Import npm packages
 const express = require('express');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
 const path = require('path');
+const nodemailer = require('nodemailer');
 
 const app = express();
 const PORT = process.env.PORT || 8080; // dev check 1 o 3
 
 const routes = require('./routes/api');
 
+// mail
+let transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+        user: process.env.EMAIL,
+        pass: process.env.PASS
+    }
+});
+
+let mailOptions = {
+    from: 'm.proven@daum.net', // why does it show from & to by the to email?
+    to: 'mike.pro.english@gmail.com',
+    // cc: '',
+    // bcc: '',
+    subject: 'testing',
+    text: 'works'
+    // attachments: [{filename: 'exactname', path: 'path of file'}]
+};
+/*
+transporter.sendMail(mailOptions, function(err, data) {
+    if (err) {
+        console.log('error in transport', err);
+    } else {
+        console.log('Email Sent');
+    }
+});
+*/
 // dev check 2 o 3
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/home_cooking', {
     useNewUrlParser: true,

@@ -1,6 +1,10 @@
 /*
 Functions for calling individual Lessons
 
+I'm just to lazy to redo it all, throw the words into an array and create while i loops for everything...
+I did this because at the time the easiest thing was to copy, paste, and use the text editor to select multiple lines and type when needed
+
+
 */
 
 let I = '<p>To use this as a study aid, ignore the words you know, and focus on the words you don\'t know. Click on the <img src="dictionary.png" alt="Dictionary.com" style="width:21px;height:21px;border:0;"> link to get the English pronunciations, definitions, and examples of the words used in a sentence. Any words in the definitions you don\'t know can be clicked on and you can build your vocabulary even further. Use the <img src="papago.ico" alt="Papago Translation" style="width:21px;height:21px;border:0;"> link to go to the page for a translation (preset English to Korean).</p>';

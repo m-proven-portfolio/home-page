@@ -1,4 +1,7 @@
 /*
+I'm just to lazy to redo it all, throw the words into an array and create while i loops for everything...
+I did this because at the time the easiest thing was to copy, paste, and use the text editor to select multiple lines and type when needed
+
 LINKS
 https://papago.naver.com/?sk=en&tk=ko&hn=0&st=shortly
 

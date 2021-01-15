@@ -1,5 +1,11 @@
 
-/*   3k list... */
+/*   3k list... 
+
+I'm just to lazy to redo it all, throw the words into an array and create while i loops for everything...
+I did this because at the time the easiest thing was to copy, paste, and use the text editor to select multiple lines and type when needed
+
+
+*/
 
 var List001 = ['Week 01 Lesson 001 <br/><br/>'+w0001+' <br/><br/>'+w0601+' <br/><br/>'+w1201+' <br/><br/>'+w1801+' <br/><br/>'+w2401];
 var List002 = ['Week 01 Lesson 002 <br/><br/>'+w0002+' <br/><br/>'+w0602+' <br/><br/>'+w1202+' <br/><br/>'+w1802+' <br/><br/>'+w2402];

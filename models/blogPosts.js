@@ -1,5 +1,11 @@
 const mongoose = require('mongoose');
+/*
+What data do I really want from the user and why? Why === an example of CRUD, just need to Update and Delete the blog posts...
+Who will be users of this site? ---> mostly for employers? 
+or I will just give it to my students, but as of now only the 3k list is it for them...
 
+I should look for more online examples of database usage with MERN
+*/
 // DB Schema? "The Plan/layout for the data model"
 const Schema = mongoose.Schema;
 const BlogPostSchema = new Schema({

@@ -42,7 +42,7 @@ router.post('/save', (req, res) => {
     
 });
 
-
+/*
 // a more static example...
 router.get('/name', (req, res) => {
     const data = {
@@ -52,6 +52,6 @@ router.get('/name', (req, res) => {
     res.json(data);
 
 });
-
+*/
 
 module.exports = router;

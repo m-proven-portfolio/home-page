@@ -107,13 +107,31 @@ class App extends React.Component {
       
         <p>If you are here, then you are most likely one of my advanced students or a prospective school. I'm not your standard ESL teacher.</p>
         <p className="inner">I made this app to help my students improve their vocabulary. It's a 15-week self-paced course on the 3,000 most commonly used words in English. <br />
+          
         <br />Click this <a href="./engIn15Wks/index.html" target="_self" >LINK</a> to access it.</p>
       </div><div class="col-sm-6 outer">
         <h2>Mike the Developer/Hobbyist:</h2>
-
+            
         <p>This <a href="https://www.freecodecamp.org/m-proven" target="_blank" rel="noreferrer">freeCodeCamp.org <i class="fab fa-free-code-camp"></i> link</a> will take you to my profile there to show you my progress.
           The code for this web-portfolio can be found on my <a href="https://github.com/m-proven-portfolio/home-page" rel="noreferrer" target="_blank">GitHub <i class="fab fa-github"></i></a>. Thank you for your interest and I look forward to collaborating with you and your company.</p>
-      </div></header>
+     {/* <div class="negative">
+        <form>
+          <label id="title-label">Email: </label><br/>
+          <input type="email" id="email" placeholder="Your email here"/><br/>
+          <label id="title-label">Subject: </label><br/>
+          <input type="text" id="sub" placeholder="Your subject here"/><br/>              
+            <label id="content-label">Email Body: </label><br/>
+            <textarea  
+            id="content" 
+            name="content" 
+            rows="9" 
+            cols="32" 
+            placeholder="What would you like to talk about?"></textarea><br/>
+            <button className="form-control btn-danger" id="submit" type="submit">Send me a message.</button>
+        </form>
+
+    </div>*/}
+    </div></header>
         <form id="Blog-Posts" action="#" method="POST" target="_self" onSubmit={this.submit}>
           <div className="form-group">
           <div className="form-input">
@@ -140,7 +158,7 @@ class App extends React.Component {
             </textarea>
           </div>  
 
-          <button className="form-control btn-info" id="submit" type="submit">Post your thoughts.</button>
+          <button className="form-control btn-danger" id="submit" type="submit">Post your thoughts.</button>
 
         </div></form>
 
