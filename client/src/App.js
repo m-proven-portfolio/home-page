@@ -105,7 +105,7 @@ class App extends React.Component {
       </div><div class="col-sm-6 negative">
         <p className="inner">While I was an ESL teacher I made this app to help my students improve their vocabulary. It's a 15-week self-paced course on the 3,000 most commonly used words in English. <br />
           
-        <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./engIn15Wks/index.html" target="_self" >\>>> go to English in 15 Weeks</a></p>
+        <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./engIn15Wks/index.html" target="_self" >go to English in 15 Weeks</a></p>
       </div><div class="col-sm-6 outer">
         <h2>Mike the Developer/Hobbyist:</h2>
             
