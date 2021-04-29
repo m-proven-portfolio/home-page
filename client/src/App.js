@@ -93,24 +93,22 @@ class App extends React.Component {
 
     console.log('State: ', this.state)
     //JSX
+    // <a href="https://www.freecodecamp.org/m-proven" target="_blank" rel="noreferrer">freeCodeCamp.org <i class="fab fa-free-code-camp"></i> link</a>
+    // <a href="https://youtube.com/playlist?list=PLurIMwd6GdCj_VlnKVceR66Sxfcb37VU8" target="_blank" rel="noreferrer">YouTube <i class="fab fa-youtube"></i></a> 
     return(
       <div className="container">
         <header  className="jumbotron text-center row negative">
       <div className="col-sm-12 outer">
         <h1>Welcome to the M.Proven.Portfolio</h1><h2>created by: Mike Provenzano</h2>
       
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I initially used this <a href="https://youtube.com/playlist?list=PLurIMwd6GdCj_VlnKVceR66Sxfcb37VU8" target="_blank" rel="noreferrer">YouTube <i class="fab fa-youtube"></i></a> series to build this website. 
-          It is my intent that by building this into a portfolio website 
-          I will improve as a programmer and web developer while also offering tools to help my students improve their English as a second language.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is my intent that by building this into a portfolio website I will improve as a programmer and web developer.</p>
       </div><div class="col-sm-6 negative">
         <p className="inner">While I was an ESL teacher I made this app to help my students improve their vocabulary. It's a 15-week self-paced course on the 3,000 most commonly used words in English. <br />
           
         <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="./engIn15Wks/index.html" target="_self" >go to English in 15 Weeks</a></p>
       </div><div class="col-sm-6 outer">
-        <h2>Mike the Developer/Hobbyist:</h2>
             
-        <p>This <a href="https://www.freecodecamp.org/m-proven" target="_blank" rel="noreferrer">freeCodeCamp.org <i class="fab fa-free-code-camp"></i> link</a> will take you to my profile there to show you my progress.
-          The code for this web-portfolio can be found on my <a href="https://github.com/m-proven-portfolio/home-page" rel="noreferrer" target="_blank">GitHub <i class="fab fa-github"></i></a>. Thank you for your interest and I look forward to collaborating with you and your company.</p>
+        <p>The code for this web-portfolio can be found on my <a href="https://github.com/m-proven-portfolio/home-page" rel="noreferrer" target="_blank">GitHub <i class="fab fa-github"></i></a>. Thank you for your interest and I look forward to collaborating with you and your company.</p>
      {/* <div class="negative">
         <form>
           <label id="title-label">Email: </label><br/>
