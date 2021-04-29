@@ -103,12 +103,9 @@ class App extends React.Component {
           It is my intent that by building this into a portfolio website 
           I will improve as a programmer and web developer while also offering tools to help my students improve their English as a second language.</p>
       </div><div class="col-sm-6 negative">
-        <h2>Mike the ESL teacher:</h2>
-      
-        <p>If you are here, then you are most likely one of my advanced students or a prospective school. I'm not your standard ESL teacher.</p>
-        <p className="inner">I made this app to help my students improve their vocabulary. It's a 15-week self-paced course on the 3,000 most commonly used words in English. <br />
+        <p className="inner">While I was an ESL teacher I made this app to help my students improve their vocabulary. It's a 15-week self-paced course on the 3,000 most commonly used words in English. <br />
           
-        <br />Click this <a href="./engIn15Wks/index.html" target="_self" >LINK</a> to access it.</p>
+        <br /> <a href="./engIn15Wks/index.html" target="_self" >English in 15 Weeks</a></p>
       </div><div class="col-sm-6 outer">
         <h2>Mike the Developer/Hobbyist:</h2>
             
