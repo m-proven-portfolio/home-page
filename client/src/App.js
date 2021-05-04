@@ -101,7 +101,10 @@ class App extends React.Component {
       <div className="col-sm-12 outer">
         <h1>Welcome to the M.Proven.Portfolio</h1><h2>created by: Mike Provenzano</h2>
       
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is my intent that by building this into a portfolio website I will improve as a programmer and web developer.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is my intent that by building this into a portfolio website I will improve as a programmer and web developer.</p><video width="320" height="240" controls>
+  <source src="pitch.mp4" type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
       </div><div class="col-sm-6 negative">
         <p className="inner">While I was an ESL teacher I made this app to help my students improve their vocabulary. It's a 15-week self-paced course on the 3,000 most commonly used words in English. <br />
           
